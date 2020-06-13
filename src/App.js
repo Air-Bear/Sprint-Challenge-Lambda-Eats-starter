@@ -18,7 +18,7 @@ const App = () => {
     		<Route path="/">
     			<Container>
 		    		<Card>
-		    			<CardImg src="./Pizza.jpg" />
+		    			<CardImg top width="100%" src='./Pizza.jpg' alt="pizza" />
 		    			<CardBody>
 		    				<CardTitle>Lambda Eats!</CardTitle>
 			    			<Link to="/pizza">
